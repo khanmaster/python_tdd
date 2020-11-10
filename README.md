@@ -17,3 +17,19 @@ to test our code
 - we will create a file to write our code
 - we will refactor and add the code to pass the tests
 
+**Naming convention for test files and methods**
+- file name simple_calc
+- test_simple_calc
+ 
+** install the testing frameworks**
+
+```python
+pip install pytest
+```
+
+- How does ```pytest``` work
+
+- pytest looks for the files with ``` test_*.py``` and ```_test*.py```
+- ```-v``` is vor verbose flag
+
+- We can use different condition with assertEqual as per business need
